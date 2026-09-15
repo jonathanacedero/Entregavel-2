@@ -7,7 +7,8 @@ export default function CampoSenha() {
     const [confirmPwd, setConfirmPwd] = useState("");
 
     const senhaIguar = pwd === confirmPwd && pwd !== "";
-
+    
+    
     return (
         <>
             <input

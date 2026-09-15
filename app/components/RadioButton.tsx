@@ -16,6 +16,7 @@ export default function RadioButton() {
              />
             92.9 FM A rádio do coração
         </label>
+        <br />
         <label>
             <input type="radio"
             name="opcao"
@@ -25,6 +26,7 @@ export default function RadioButton() {
              />
             104.1 FM A estação do seu rádio!
         </label>
+        <br />
         <label>
             <input type="radio"
             name="opcao"

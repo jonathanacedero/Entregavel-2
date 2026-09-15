@@ -13,7 +13,7 @@ export default function CampoSenha() {
         }else if(senha !== "" || confirmaSenha !== ""){
             setMsg("Senhas são diferentes, digite novamente");
         } else if(senha=== ""&& confirmaSenha === ""){
-            setMsg("");
+            setMsg(" ");
         } else {
             setMsg("");
         }
