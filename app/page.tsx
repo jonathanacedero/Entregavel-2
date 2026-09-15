@@ -13,39 +13,39 @@ import InputSelect from "./components/InputSelect";
 import Geefie from "./components/Geefie";
 
 export default function Home() {
-    const [botaoOn, setBotaoOn] = useState(false);
+  const [botaoOn, setBotaoOn] = useState(false);
 
-    return (
+  return (
     <main>
-        <h1>Botão com useState na Função</h1>
-        <Botao />
-        <hr />
-        <h1>Botão sem useState na Função</h1>
-        <BotaoSemUseState legado={botaoOn} onClick={() => setBotaoOn(!botaoOn)} />
-        <hr />
-        <h1>Campo nome</h1>
-        <CampoNome />
-        <hr/>
-        <h1>Cãompo de senha</h1>
-        <CampoSenha />
-        <hr/>
-        <h1>Cãopeta de senha com useEffect</h1>
-        <CampoSenhaUseEffect />
-        <hr/>
-        <h1>sex(seis em ingles)</h1>
-        <CampoSenhaSemNadaSemVirusAtualizado2026 />
-        <hr/>
-        <h1>Inverter Texto</h1>
-        <Inverter />
-        <hr/>
-        <h1>Radio Button</h1>
-        <RadioButton />
-        <hr/>
-        <h1>Input select</h1>
-        <InputSelect />
-        <hr/>
-        <h1>implementacao</h1>
-        <Geefie/>
+      <h1>Botão com useState na Função</h1>
+      <Botao />
+      <hr />
+      <h1>Botão sem useState na Função</h1>
+      <BotaoSemUseState legado={botaoOn} onClick={() => setBotaoOn(!botaoOn)} />
+      <hr />
+      <h1>Campo nome</h1>
+      <CampoNome />
+      <hr />
+      <h1>Cãompo de senha</h1>
+      <CampoSenha />
+      <hr />
+      <h1>Cãopeta de senha com useEffect</h1>
+      <CampoSenhaUseEffect />
+      <hr />
+      <h1>sex(seis em ingles)</h1>
+      <CampoSenhaSemNadaSemVirusAtualizado2026 />
+      <hr />
+      <h1>Inverter Texto</h1>
+      <Inverter />
+      <hr />
+      <h1>Radio Button</h1>
+      <RadioButton />
+      <hr />
+      <h1>Input select</h1>
+      <InputSelect />
+      <hr />
+      <h1>implementacao</h1>
+      <Geefie />
     </main>
   );
 }
